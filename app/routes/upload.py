@@ -1,5 +1,5 @@
 from flask import Blueprint, request, jsonify
-from app.services.s3 import upload_video_to_s3
+from app.services.aws_s3 import upload_video_to_s3
 
 upload_bp = Blueprint('upload', __name__)
 
